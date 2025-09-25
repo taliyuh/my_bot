@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/bartek/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bartek/dev_ws/src/my_bot-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bartek/dev_ws/install/my_bot
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.308s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.512s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.581s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.583s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.583s] -- Added test 'lint_cmake' to check CMake code style
+[0.584s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.585s] -- Added test 'xmllint' to check XML markup files
+[0.587s] -- Configuring done
+[0.589s] -- Generating done
+[0.590s] -- Build files have been written to: /home/bartek/dev_ws/build/my_bot
+[0.594s] Invoked command in '/home/bartek/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bartek/dev_ws/src/my_bot-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bartek/dev_ws/install/my_bot
+[0.596s] Invoking command in '/home/bartek/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bartek/dev_ws/build/my_bot -- -j12 -l12
+[0.630s] Invoked command in '/home/bartek/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bartek/dev_ws/build/my_bot -- -j12 -l12
+[0.640s] Invoking command in '/home/bartek/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bartek/dev_ws/build/my_bot
+[0.646s] -- Install configuration: ""
+[0.646s] -- Execute custom install script
+[0.647s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.655s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.662s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.670s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.678s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.686s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.693s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.701s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.708s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.717s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.724s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.732s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.740s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.748s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.755s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.764s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.772s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.779s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.787s] -- Symlinking: /home/bartek/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.797s] Invoked command in '/home/bartek/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bartek/dev_ws/build/my_bot
